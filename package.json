@@ -1,0 +1,31 @@
+{
+  "name": "demo-hasura-nextjs-vercel-with-bootstrap",
+  "version": "0.0.0",
+  "description": "Refinements and enhancements for the app created in the Hasura tutorial at https://hasura.io/learn/graphql/nextjs-fullstack-serverless",
+  "keywords": [
+    "hasura",
+    "auth0",
+    "nextjs",
+    "apollo",
+    "vercel",
+    "bootstrap"
+  ],
+  "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "scripts": {
+    "start": "npm run start:dev",
+    "start:dev": "cd app && npm run dev",
+    "start:prod": "cd app && npm start",
+    "deploy": "npm run deploy:dev",
+    "deploy:dev": "npx vercel",
+    "deploy:prod": "npx vercel --prod"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobBrennan/demo-hasura-nextjs-vercel-with-bootstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheRobBrennan/demo-hasura-nextjs-vercel-with-bootstrap/issues"
+  },
+  "homepage": "https://github.com/TheRobBrennan/demo-hasura-nextjs-vercel-with-bootstrap#readme"
+}
